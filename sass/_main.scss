@@ -1,0 +1,21 @@
+main{
+    padding: 50px 0;
+    background-color: black;
+    color: white !important;
+    font-size: 20px;
+    .video-content{
+        border: 20px solid white;
+        border-radius: 15px;
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        video{
+           width: 100% ;
+        }
+    }
+    ul.icons{
+        list-style: none;
+    }
+}

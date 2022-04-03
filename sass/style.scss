@@ -1,0 +1,114 @@
+@import "Section1";
+@import "main";
+
+// .navbar{
+//     background-color: #24252A !important;
+//     position: relative;
+
+// }
+
+// .boxs-content{
+//     display: flex;
+//     position: relative;
+// }
+// .box{
+//     width: 200px;
+//     height: 200px;
+//     background-color: yellow;
+//     margin: 60px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     font-size: 50px;
+
+// }
+
+// .box1{
+//     background-color: red;  
+//     position: absolute;
+
+// }
+
+// .box2{
+//     position: absolute;
+//     left: 60px;
+//     z-index: -1;
+
+// }
+
+// .box3{
+//     background-color: blue;  
+//     position: absolute;
+//     left: 100px;
+  
+// }
+
+
+
+// // .box2{
+// //     position: absolute;
+// //     z-index: -1;
+// //     left: 150px;
+// //     background-color: purple;
+// // }
+
+
+// .carousel-item {
+//     img{
+//         height: 650px;
+//     }
+// }
+
+
+
+
+// .carousel-indicators{
+//     button{
+//         width: 15px !important;
+//         height: 15px !important;
+//         border-radius: 50% !important;
+//         background-color: red !important;
+//     }
+
+//     .active{
+//         background-color: black !important;
+//     }
+// }
+
+// .logo{
+//     color: red !important;
+// }
+
+
+// .carousel-control-next-icon{
+//     background-image: url("../images/right-arrow.png") !important;
+//     background-repeat: no-repeat !important;
+//     width: 60px  ;
+//     height: 60px;
+//     background-size: cover !important;
+// }
+
+
+.box{
+    padding: 10px;
+  
+    display: flex;
+    flex-direction: column;
+ 
+    font-size: 36px;
+    font-weight: 600;
+    margin: 10px 0;
+
+    .text-content{
+        .title-content{
+            display: flex;
+            align-items: center;
+
+        }
+        p{
+            font-size: 16px;
+            color: gray;
+        }
+    }
+}
+
